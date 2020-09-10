@@ -54,9 +54,9 @@ player_one = Player("Amber", room["outside"])
 
 print(f"\n {player_one.current_room.short_description}\n")
 print(f"\n{player_one.current_room.description}\n")
-command = input("\nEnter n, s, e, w to move. \n You can type q to quit the game.")
 
 while True:
+    command = input("\nEnter n, s, e, w to move. \n You can type q to quit the game.")
     if (command == "q"):
         break
 
@@ -77,4 +77,3 @@ while True:
 
     print(f"\n {player_one.current_room.short_description}\n")
     print(f"\n{player_one.current_room.description}\n")
-    command = input("\nEnter n, s, e, w to move. You can type q to quit the game.")
